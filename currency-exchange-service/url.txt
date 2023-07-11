@@ -1,0 +1,29 @@
+http://localhost:8000/currency-exchange/from/{from}/to/{to}"
+http://localhost:8001/currency-exchange/from/{from}/to/{to}"
+http://localhost:8100/currency-conversion/from/{from}/to/{to}/quantity/{quantity}"
+
+H2 DB
+http://localhost:8080/h2-console
+
+CURRENCY EXCHANGE
+http://localhost:8000/currency-exchange/from/USD/to/INR
+http://localhost:8001/currency-exchange/from/USD/to/INR
+
+CURRENCY CONVERSION
+http://localhost:8100/currency-conversion/from/USD/to/INR/quantity/300
+http://localhost:8100/currency-conversion-feign/from/USD/to/INR/quantity/300
+
+NAMING SERVER
+http://localhost:8761
+
+API GATEWAY
+http://localhost:8765/CURRENCY-EXCHANGE/currency-exchange/from/USD/to/INR
+http://localhost:8765/CURRENCY-CONVERSION/currency-conversion-feign/from/USD/to/INR/quantity/300
+
+http://localhost:8765/currency-exchange/currency-exchange/from/USD/to/INR
+
+IMAGES
+currency exchange - docker.io/pgjavaspringboot/mmv2-currency-exchange-service:0.0.1-SNAPSHOT
+currency conversion - 
+api gateway - 
+naming server - 
