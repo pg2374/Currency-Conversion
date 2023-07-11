@@ -61,4 +61,4 @@ services:
     restart: always #Restart if there is a problem starting up
 
 networks:
-  curtency-network:
+  curency-network:
